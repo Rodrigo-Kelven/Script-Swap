@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Verificando o status da swap..."
+swapon --show
+
+echo "Abrindo o arquivo /etc/fstab para edição..."
+sudo nano /etc/fstab
+
+
+echo "Adicionando a entrada de swap em /etc/fstab.."
+echo "$DEVICE none swap sw,pri=10 0 0" sudo tee -a /etc/fstab
+
+echo "Configurando o valor de swappiness..."
+echo "60" | sudo tee /proc/sys/vm/swappiness
+
+echo "Configuração concluida! Verifique as alterações em /etc/fstab e a configuração de swappiness"
