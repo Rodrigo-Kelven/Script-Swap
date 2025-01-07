@@ -1,5 +1,5 @@
 
-# Script Docker
+# Script Swap
 
 Desenvolvi este script porque descobri que tem como "usar uma memoria RAM no HD externo", diante disso pensei, porque não usar isso como forma de "aliviar" a memória RAM ?.
 Para que este script rode, você ja deve ter uma partição /swap (do tamanho que desejar), porque é nela que poderemos "balancear" e "processar". 
