@@ -1,5 +1,7 @@
 
 # Script Swap
+![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) 
+
 
 Desenvolvi este script porque descobri que tem como "usar uma memoria RAM no HD externo", diante disso pensei, porque não usar isso como forma de "aliviar" a memória RAM ?.
 Para que este script rode, você ja deve ter uma partição /swap (do tamanho que desejar), porque é nela que poderemos "balancear" e "processar". 
