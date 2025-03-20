@@ -24,4 +24,11 @@ chmod +x script-swap.sh
 
 Para instalar o script:
 ./script-swap.sh
+```
     
+# Contribuições
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um issue ou enviar um pull request.;)
+
+## Autores
+- [@Rodrigo_Kelven](https://github.com/Rodrigo-Kelven)
+
